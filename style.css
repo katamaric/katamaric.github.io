@@ -1,0 +1,130 @@
+body{
+  margin: 0;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
+
+a{
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-nav{
+  display: flex;
+  align-items: center;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+nav button{
+  border: 1px solid #4285f4;
+	outline: none;
+	background: #4285f4;
+	color: #fff;
+	cursor: pointer;
+}
+
+.header-apps:hover{
+  box-shadow: 0 0 10px 0 rgb(215, 212, 212);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+h1{
+  font-size: 70px
+}
+
+.mag{
+  border-radius: 70px;
+}
+
+.cam{
+  border-radius: 50px;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+}
+
+.lang{
+	margin-top: 30px;
+	text-align: center;
+	font-size: 13px;
+	color: #4d5156;
+}
+
+.input-container{
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  height: 40px;
+  border: 1px solid rgb(215, 212, 212);
+  border-radius: 20px;
+}
+
+.input-container:hover{
+  box-shadow: 0 0 10px 0 rgb(215, 212, 212);
+}
+
+.input-container > input{
+  flex-grow: 1;
+  border: none;
+  outline: none;
+}
+
+img:hover{
+  cursor: pointer;
+}
+
+.button-container{
+  padding-top: 30px;
+}
+
+button{
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  border: none;
+  height: 36px;
+  padding: 0 20px;
+  margin: 0 4px;
+  color: #3c4043;
+}
+
+button:hover{
+  cursor: pointer;
+  box-shadow: 0 0 10px 0 rgb(215, 212, 212);
+}
+
+footer{
+  background-color: #f0f1f2;
+	position: fixed;
+  bottom: 0;
+  width: 100vw;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.bottom-nav{
+	display: flex;
+	justify-content: space-between;
+	gap: 400px;
+}
+
+#footer-left{
+	padding-left: 20px;
+}
